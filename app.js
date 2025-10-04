@@ -2,6 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { getAllMessages } from "./teammates/Uyah/getAllMessages.js";
+import { getMessageById } from "./teammates/biancollins474@gmail.com/getMessageById.js";
 
 const app = express();
 const PORT = 3000;
