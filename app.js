@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { getAllMessages } from "./teammates/Uyah/getAllMessages.js";
 import { getMessageById } from "./teammates/biancollins474@gmail.com/getMessageById.js";
+import { addMessage } from "./teammates/dunsinakinlade@gmail.com/addMessage.js";
 
 const app = express();
 const PORT = 3000;
