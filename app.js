@@ -1,6 +1,7 @@
 import express from "express";
 import fs from "fs";
 import path from "path";
+import { getAllMessages } from "./teammates/Uyah/getAllMessages.js";
 
 const app = express();
 const PORT = 3000;
